@@ -9,7 +9,6 @@ Rails.application.routes.draw do
   get "/carrot", to: "cake#carrot_cake"
   get "/brownie", to: "cake#brownie"
   get "/cheesecake", to: "cake#cheesecake"
-  get "/pnf", to: "cake#pnf"
   # Defines the root path route ("/")
   root "cake#welcome"
   # root "posts#index"
